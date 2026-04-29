@@ -10009,7 +10009,7 @@ const sp = [["path", {
                                     size: 20
                                 }), c.jsx("span", {
                                     className: L.detailText,
-                                    children: "June 15 2026"
+                                    children: "June 15, 2026"
                                 })]
                             }), c.jsxs("div", {
                                 className: L.detailRow,
@@ -10034,7 +10034,7 @@ const sp = [["path", {
                                     })]
                                 })]
                             }), c.jsxs("a", {
-                                href: "",
+                                href: "https://maps.app.goo.gl/JsSnoz2DmsJyWRHW6",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: L.mapOutlineBtn,
