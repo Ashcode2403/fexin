@@ -9616,6 +9616,16 @@ const sp = [["path", {
                     opacity: .9
                 },
                 children: t ? "Saturday" : "Saturday"
+            }), c.jsx("p", {
+                style: {
+                    marginTop: "20px",
+                    fontFamily: "var(--font-body)",
+                    fontSize: "0.8rem",
+                    letterSpacing: "4px",
+                    textTransform: "uppercase",
+                    opacity: .9
+                },
+                children: t ? "Saturday" : "Join us as we tie the knot and seek the blessings of almighty"
             })]
         }), n && c.jsxs("div", {
             className: Z.scrollIndicator,
@@ -9891,10 +9901,10 @@ const sp = [["path", {
     mapOutlineBtn: sm
 }
   , am = "/assets/image2.jpeg"
-  , cm = "/assets/image3.jpeg"
+  , cm = "/assets/image1.jpeg"
   , fm = ({inviteType: e="both"}) => {
     const t = true;   // always show first card
-    const n = false;  // never show second card
+    const n = true;  // never show second card
     const r = false;  // remove extra note
     return c.jsx("section", {
         className: L.venuesSection,
@@ -9955,11 +9965,11 @@ const sp = [["path", {
                                     children: [c.jsx("p", {
                                         children: "St. Francis Assisi Church, Vellapally Alappuzha, Kerala"
                                     }), c.jsx("p", {
-                                        children: "North Paravoor, Ernakulam"
+                                        children: ""
                                     })]
                                 })]
                             }), c.jsxs("a", {
-                                href: "https://share.google/UNiCyO1an1FKI4gV1",
+                                href: "https://maps.app.goo.gl/1K393dWUBo7MB2nU9",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: L.mapOutlineBtn,
@@ -9986,7 +9996,7 @@ const sp = [["path", {
                         className: L.cardHeader,
                         children: c.jsx("h3", {
                             className: L.venueTitle,
-                            children: ""
+                            children: "Wedding Reception "
                         })
                     }), c.jsx("div", {
                         className: L.cardContent,
@@ -9999,7 +10009,7 @@ const sp = [["path", {
                                     size: 20
                                 }), c.jsx("span", {
                                     className: L.detailText,
-                                    children: ""
+                                    children: "June 15 2026"
                                 })]
                             }), c.jsxs("div", {
                                 className: L.detailRow,
@@ -10008,7 +10018,7 @@ const sp = [["path", {
                                     size: 20
                                 }), c.jsx("span", {
                                     className: L.detailText,
-                                    children: ""
+                                    children: "11:00 AM"
                                 })]
                             }), c.jsxs("div", {
                                 className: L.detailRow,
@@ -10018,9 +10028,9 @@ const sp = [["path", {
                                 }), c.jsxs("div", {
                                     className: L.detailText,
                                     children: [c.jsx("p", {
-                                        children: ""
+                                        children: "Carmel hill monastery Roman Catholic church, vazhuthacaud"
                                     }), c.jsx("p", {
-                                        children: ""
+                                        children: "Followed by reception at Mount Carmel convention centre"
                                     })]
                                 })]
                             }), c.jsxs("a", {
@@ -10034,7 +10044,7 @@ const sp = [["path", {
                                         marginRight: "8px",
                                         verticalAlign: "middle"
                                     }
-                                }), ""]
+                                }), "Open in Maps"]
                             })]
                         })
                     })]
