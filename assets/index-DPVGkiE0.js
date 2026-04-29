@@ -9836,7 +9836,7 @@ const sp = [["path", {
                         }), c.jsxs("p", {
                             className: V.parents,
                             children: ["S/O ", c.jsx("br", {}), c.jsx("strong", {
-                                children: "Mr. Francis Faber & Mrs. Tressa Faber (Late)"
+                                children: "Mr. Francis Faber & Late Mrs. Tressa Faber"
                             })]
                         }), c.jsxs("p", {
                             className: V.address,
@@ -10009,7 +10009,7 @@ const sp = [["path", {
                                     size: 20
                                 }), c.jsx("span", {
                                     className: L.detailText,
-                                    children: "June 15, 2026"
+                                    children: "Monday, June 15, 2026"
                                 })]
                             }), c.jsxs("div", {
                                 className: L.detailRow,
@@ -10482,3 +10482,4 @@ function Km() {
 yc(document.getElementById("root")).render(c.jsx(O.StrictMode, {
     children: c.jsx(Km, {})
 }));
+
