@@ -10423,7 +10423,7 @@ function Km() {
                 className: "intro-content",
                 children: [c.jsx("h3", {
                     className: "intro-subtitle",
-                    children: "THE WEDDING INVITATION OF"
+                    children: "THE Engagement INVITATION OF"
                 }), c.jsxs("h1", {
                     className: "intro-title",
                     children: ["Joseph Fexin Faber ", c.jsx("span", {
