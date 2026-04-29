@@ -9589,7 +9589,7 @@ const sp = [["path", {
                 children: "Fexin & Annie"
             }), c.jsx("div", {
                 className: Z.eventTag,
-                children: t ? "RECEPTION" : "MARRIAGE"
+                children: t ? "RECEPTION" : "Engagement"
             }), c.jsxs("div", {
                 className: Z.dateColumns,
                 children: [c.jsx("div", {
@@ -9649,13 +9649,14 @@ const sp = [["path", {
     label: Pp
 }
   , zp = ({inviteType: e="both"}) => {
-    const n = e === "reception" ? "May 1, 2026 18:00:00" : "April 29, 2026 09:30:00"
-      , r = new Date(n).getTime()
-      , [l,o] = O.useState({
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0
+    const n = "2026-06-06T12:00:00+05:30";
+    const r = new Date(n).getTime();
+
+    const [l, o] = O.useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0
     });
     return O.useEffect( () => {
         const i = setInterval( () => {
@@ -10039,7 +10040,7 @@ const sp = [["path", {
                     })]
                 }), r && c.jsx("p", {
                     className: L.subNote,
-                    children: "The Marriage will be held at St. Francis Assisi Church, Vellapally Alappuzha, Kerala on Saturday, 06th June, 2026."
+                    children: "The Engagement will be held at St. Francis Assisi Church, Vellapally Alappuzha, Kerala on Saturday, 06th June, 2026."
                 })]
             })]
         })
@@ -10255,8 +10256,8 @@ const sp = [["path", {
     mapAction: Vm
 }
   , Qm = ({isOpen: e, onClose: t, inviteType: n}) => {
-    const r = n === "marriage" || n === "both"
-      , l = n === "reception" || n === "both";
+    const r = true;   // show first card
+    const l = false;  // hide second card
     return c.jsxs(c.Fragment, {
         children: [c.jsx("div", {
             className: `${we.drawerOverlay} ${e ? we.open : ""}`,
@@ -10282,14 +10283,14 @@ const sp = [["path", {
                     children: [c.jsxs("div", {
                         className: we.locationDetails,
                         children: [c.jsx("h4", {
-                            children: "The Wedding Ceremony"
+                            children: "The Engagement Ceremony"
                         }), c.jsxs("p", {
                             children: [c.jsx("strong", {
-                                children: "Ranganath Kalyana Mandapam"
-                            }), c.jsx("br", {}), "North Paravoor"]
+                                children: "St. Francis Assisi Church, Vellapally Alappuzha"
+                            }), c.jsx("br", {}), "Kerala, India"] 
                         })]
                     }), c.jsxs("a", {
-                        href: "https://maps.google.com/?q=Ranganath+Kalyana+Mandapam,+North+Paravoor",
+                        href: "https://share.google/UNiCyO1an1FKI4gV1",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: we.mapAction,
@@ -10334,7 +10335,7 @@ function Km() {
     , [n]);
     const s = new URLSearchParams(window.location.search).get("v");
     let f = "both";
-    if (s === "wed" ? f = "marriage" : s === "rec" ? f = "reception" : s && (f = "invalid"),
+    if (s === "wed" ? f = "Engagement" : s === "rec" ? f = "reception" : s && (f = "invalid"),
     !(f !== "invalid"))
         return c.jsxs("div", {
             style: {
