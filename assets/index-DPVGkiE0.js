@@ -9836,7 +9836,7 @@ const sp = [["path", {
                         }), c.jsxs("p", {
                             className: V.parents,
                             children: ["S/O ", c.jsx("br", {}), c.jsx("strong", {
-                                children: "Mr. Francis Faber & Late Mrs. Tressa Faber"
+                                children: "Mr. Francis Faber & Late Mrs. Treesa Faber"
                             })]
                         }), c.jsxs("p", {
                             className: V.address,
